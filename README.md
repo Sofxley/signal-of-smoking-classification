@@ -6,12 +6,12 @@ I recommend reading the project notebook on Kaggle if you can not view it on Git
 
 ## SUMMARY
 
-* Built eight distinct classification models to predict whether the person is a smoker, resulting in the best model being Random Forest with an accuracy of over 77%, recall equal to 0.73, and precision of 0.68.
-* Conducted exploratory data analysis of an imbalanced regular health checkup dataset containing 55 thousand entries to find the factors such as hemoglobin levels and triglyceride levels that showed a strong indication of a smoking habit.
-* Discovered that there is no clear relationship between specific characteristics, for example, between HDL or LDL levels and the gender or the smoking habit, which is unique to the dataset used.
-* Established a baseline level of performance of a set of various models using different variations of the dataset received after scaling the data, removing the outliers, or reducing the dimensionality of the dataset.
-* Optimized Logistic Regression, Stochastic Gradient Descent, K-Nearest
-Neighbors, CART, AdaBoost, Random Forest, Extra Trees, and Bagging Classifier models using GridSearchCV, Threshold-Moving for Imbalanced Classification, and Recursive Feature Elimination techniques to reach the best model.
+* Developed eight classification models to predict smoking habits, enabling targeted interventions and advancing public health initiatives.
+* Achieved comparable performance among different models, with the top-performing Random Forest model reaching 77.34% accuracy, 0.73 recall, and 0.68 precision.
+* Discovered no clear relationship between specific characteristics (e.g., HDL or LDL levels) and gender or smoking habits, challenging existing knowledge.
+* Conducted exploratory data analysis on an imbalanced 55k-entry health checkup dataset, unveiling strong indicators of smoking habits like hemoglobin and triglyceride levels.
+* Established performance baselines through comprehensive data scaling, outlier removal using Isolation Forest, and dimensionality reduction techniques employing PCA and feature importance technique.
+* Optimized multiple models (Logistic Regression, SGD, KNN, CART, AdaBoost, Random Forest, Extra Trees, Bagging Classifier) using techniques such as threshold-moving, class weight adjustment, stratified sampling, grid search, and recursive feature elimination.
 
 ## RESULTS
 
